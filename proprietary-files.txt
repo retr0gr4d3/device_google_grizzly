@@ -130,7 +130,6 @@ product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/firmware/music_detector.sound_model_tflite
-product/etc/sysconfig/nowplaying_app_26q1.xml
 product/priv-app/HotwordEnrollmentOKGoogleFUSIONPro/HotwordEnrollmentOKGoogleFUSIONPro.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleFUSIONPro/HotwordEnrollmentXGoogleFUSIONPro.apk;PRESIGNED
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
