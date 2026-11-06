@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings > About phone maintainer card (unofficial builds). -->
+    <string name="build_maintainer_summary" translatable="false">retr0gr4d3</string>
+    <!-- Support button link; leave empty to hide the button. -->
+    <string name="build_maintainer_donate_url" translatable="false"></string>
+</resources>
