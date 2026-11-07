@@ -194,3 +194,12 @@ product/overlay/TrafficLightFaceOverlay.apk;MAKE_COPY_RULE_ONLY
 # Carrier Wi-Fi Hotspot auto-connect service and permissions
 product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/etc/permissions/privapp-permissions_com.google.android.apps.carrier.carrierwifi.xml
+
+# Pixel extras: face unlock enrollment, Pixel NFC, Wi-Fi mainline overlays.
+# No shared uid, so they keep Google's signatures. preinstalled-packages-tuscany.xml
+# installs FaceEnroll and TrafficLightFaceOverlay for users (stock's own list).
+system_ext/etc/sysconfig/preinstalled-packages-tuscany.xml
+system_ext/etc/wifi/p2p_supplicant_mainline_overlay.conf
+system_ext/etc/wifi/wpa_supplicant_mainline_overlay.conf
+system_ext/priv-app/PixelNfc/PixelNfc.apk;PRESIGNED
+system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk;PRESIGNED
