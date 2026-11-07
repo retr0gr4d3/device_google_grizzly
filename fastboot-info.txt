@@ -1,0 +1,23 @@
+# fastboot-info for lineage_grizzly
+# Static because vendor_kernel_boot is a stock prebuilt, so the generated file leaves it out.
+version 1
+flash boot
+flash init_boot
+flash dtbo
+flash pvmfw
+flash vendor_boot
+flash vendor_kernel_boot
+flash --apply-vbmeta vbmeta
+flash vbmeta_system
+flash vbmeta_vendor
+reboot fastboot
+update-super
+flash system
+flash system_dlkm
+flash system_ext
+flash product
+flash vendor
+flash vendor_dlkm
+flash --slot-other system system_other.img
+if-wipe erase userdata
+if-wipe erase metadata
